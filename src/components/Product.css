@@ -1,0 +1,21 @@
+.product{
+    width: 200px;
+    height: 260px;
+    margin: 25px;
+    color: black;
+}
+
+img{
+    margin:auto;
+    align-items: center;
+    width:180px;
+}
+
+.quantity{
+    width: 100px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}

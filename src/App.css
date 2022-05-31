@@ -1,38 +1,43 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-farmaNow {
+  width: 100%;
+  background-color: #87cefa;
+  color: black;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
+}
+
+.header-farmaNow img {
+  width: 40px;
+  margin: 0;
+}
+
+.header-farmaNow h1 {
+  margin: 0;
+}
+
+.form-farmaNow {
+  width: 90%;
+  margin: 2em auto;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.login-panel {
+  background-image: linear-gradient(#005eff, #20b2aa);
+
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.login-panel-box {
+  background: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content-registration, .content-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
 }

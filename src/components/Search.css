@@ -1,0 +1,19 @@
+.drug-search__input{
+    display: flex;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 40%;
+    max-width: 400px;
+}
+
+.search__div{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+}
+
+Popper{
+    width: 40%;
+}
